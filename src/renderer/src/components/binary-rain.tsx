@@ -16,8 +16,8 @@ export default function BinaryRain() {
 
       const left = Math.random() * 100; // % across screen
       const size = 12; // px
-      const duration = 25 + Math.random() * 15; // s
-      const delay = Math.random() * 10; // s
+      const duration = 25 + Math.random() * 10; // s
+      const delay = Math.random() * 30; // s
 
       el.style.left = `${left}vw`;
       el.style.fontSize = `${size}px`;
